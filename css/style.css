@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&family=Poppins:wght@500;600;700&family=Work+Sans&display=swap');
+
+*{
+    font-family: 'Work Sans', sans-serif;
+    box-sizing: border-box;
+}
+.nav-container{
+    max-width: 1240px;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+    margin: 0 auto;
+    
+    
+}
+.logo-container{
+    
+    width: 50%;
+    display: flex;
+    align-items: center;
+}
+    
+    
+.logo-container img{
+    width: 80px;
+    margin-right: 20px;
+    
+    
+}
+.logo-container p{
+    font-size: 45px;
+    color: #0B0223;
+    font-weight: 700;
+}
+.logo-container .logo-text{
+    color: #F61C0D;
+    font-weight: 700;
+    
+}
+
+.nav-items-container{
+   
+    width: 50%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-items-container a{
+    text-decoration: none;
+    font-size: 1.3rem ;
+    color: #3C354F;
+    font-weight: 500;
+    
+}
+.nav-items-container .three-items{
+    background-color: rgba(11, 2, 35, 0.10);
+    padding: 0.5rem;
+    border-radius: 0.5rem;
+    
+}
+.three-items{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.three-items a{
+    margin-right: 20px;
+}
+   
+    
+    
+    
+    
+
+
+
+
+

@@ -1,0 +1,24 @@
+@media screen and (max-width: 476px){
+    
+
+  .nav-container{
+       flex-direction: column;
+      
+  }
+  .nav-items-container {
+      flex-direction: column;
+     
+
+      
+    
+  }
+  .nav-items-container a{
+     margin-bottom: 30px;
+  }
+  
+  .three-items{
+      flex-direction: column;
+      
+     
+  }
+}
