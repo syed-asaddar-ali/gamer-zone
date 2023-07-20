@@ -4,14 +4,13 @@
     font-family: 'Work Sans', sans-serif;
     box-sizing: border-box;
 }
+/* navbar styles start */
 .nav-container{
     max-width: 1240px;
     display: flex;
     justify-content: space-between; 
     align-items: center;
     margin: 0 auto;
-    
-    
 }
 .logo-container{
     
@@ -19,13 +18,9 @@
     display: flex;
     align-items: center;
 }
-    
-    
 .logo-container img{
     width: 80px;
     margin-right: 20px;
-    
-    
 }
 .logo-container p{
     font-size: 45px;
@@ -33,11 +28,9 @@
     font-weight: 700;
 }
 .logo-container .logo-text{
-    color: #F61C0D;
-    font-weight: 700;
-    
+    color: #FF42A5;
 }
-
+    
 .nav-items-container{
    
     width: 50%;
@@ -45,29 +38,255 @@
     justify-content: space-between;
     align-items: center;
 }
+    
 .nav-items-container a{
     text-decoration: none;
     font-size: 1.3rem ;
     color: #3C354F;
     font-weight: 500;
-    
 }
+
 .nav-items-container .three-items{
     background-color: rgba(11, 2, 35, 0.10);
     padding: 0.5rem;
     border-radius: 0.5rem;
+    display: flex;
+    align-items: center;
     
 }
-.three-items{
+.nav-items-container .three-items a{
+    margin-right: 2rem;
+}
+/* navbar styles end */
+
+/* banner section styles start */
+.banner-section {
+    width: 100%;
+    height: 600px;
+    margin: 0 auto;
+    
+    border: 2px solid black;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     align-items: center;
+    
+    
+}
+.banner-container{
+    width: 1240px;
+    /* margin: 0 auto; */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+    
+    
+    border: 2px solid blue;
+}
+.banner-section img{
+    width: 100%;
+    height: 600px;
+    object-fit: cover;
 }
 
-.three-items a{
-    margin-right: 20px;
+
+.banner-text-content {
+    width: 500px;
+    /* margin: 0 auto; */
+    
+    text-align: left;
+    padding: 70px;
+    border: 2px solid gray;
 }
+.banner-text-content h2{
+    font-size: 45px;
+    color:  #0B0223;
+    text-transform: uppercase;
+    
+}
+.banner-text-content h1{
+    font-size: 90px;
+    font-weight: 800;
+    background:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    margin-top: -40px;
+    margin-bottom: -20px;
+    
+}
+.banner-text-content ul li {
+    list-style-type: none;
+    
+
+
+}
+.banner-text-content ul li a{
+    
+    margin-left: -40px;
+}
+.banner-text-content .btn-sign{
+    padding: 10px 20px;
+    border-radius: 48px;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    color: #fff;
+    border: none;
+}
+.banner-text-content .btn-go{
+    padding: 10px 20px;
+    border-radius: 48px;
+    border: none;
+    background-color: #4EC5F7;
+    
+}
+
+
+    
+.banner-image-content{
+    width: 500px;
+    border: 2px solid red;
+    margin: 0 auto;
+}
+.banner-image-content img{
+    width: 100%;
+    width: 100%;
+}
+/* banner section styles end */
+
+/* online game section styles start */
+.online-game {
+    
+    
+}
+.card-title{
+    text-align: center;
+}
+.cards{
+    width: 1240px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-top: 30px;
+}
+    
+    
+
+.card-title h2{
+    font-size: 40px;
+    color: #0B0223;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.card-title h2 span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 40px;
+    font-weight: 700;
+}
+.online-game p{
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 400;
+    text-align: center;
+    
+}
+
+.card-1{
+    width: 280px;
+    height: 350px;
+    border-radius: 10px;
+    
+}
+.card-1 img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 15px;
+    
+
+}
+.card-1:hover{
+    /* border: 4px solid #534C64; */
+    border-radius: 18px;
+    box-shadow: 0px 0px 30px #534C64;
+     
+}
+.play-now:hover{
+    background-image: linear-gradient(rgba(0,0,0,0.8) rgba(0,0,0,0.9));
+    background-blend-mode: overlay;
+}
+
+
+
+
+
+
+
+
+/* online game section styles end */
+
+
+    
+    
+    
+    
+    
+
+    
+    
+
+    
+    
+
+
+
+
+
+    
+    
+    
+    
+    
+
+    
+    
+    
+
+
+
+    
+
+    
+
+
+/* banner section styles start */
+    
+    
+    
+    
+    
+
+
+    
+    
+    
+    
+
+
    
+    
+
+    
+    
+
+
+
     
     
     
