@@ -60,47 +60,52 @@
 /* navbar styles end */
 
 /* banner section styles start */
-.banner-section {
-    width: 100%;
-    height: 600px;
+
+.banner-section{
+    /* background-color: rgba(11, 2, 35, 0.10); */
+    /* background-image: url("images/Group 14.png"); */
+    /* background-repeat: no-repeat;
+    background-attachment: fixed; */
+    /* position: absolute; */
+
+    /* width: 100%; */
+    /* height: 600px;
     margin: 0 auto;
+    
     
     border: 2px solid black;
     display: flex;
     justify-content: center;
-    align-items: center;
-    
-    
+    align-items: center; */
 }
-.banner-container{
-    width: 1240px;
-    /* margin: 0 auto; */
-    
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
-    
-    
-    
-    
-    border: 2px solid blue;
-}
-.banner-section img{
+/* .banner-section img{
     width: 100%;
     height: 600px;
     object-fit: cover;
+} */
+    
+    
+.banner-container{
+    width: 1240px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* position: relative; */
+    border: 2px solid blue;
+    
+    
 }
-
 
 .banner-text-content {
-    width: 500px;
-    /* margin: 0 auto; */
+    /* width: 500px;
+    margin: 0 auto;
     
     text-align: left;
-    padding: 70px;
+    padding: 70px; */
     border: 2px solid gray;
 }
+    
 .banner-text-content h2{
     font-size: 45px;
     color:  #0B0223;
@@ -116,13 +121,10 @@
     -webkit-text-fill-color: transparent;
     margin-top: -40px;
     margin-bottom: -20px;
-    
 }
+    
 .banner-text-content ul li {
     list-style-type: none;
-    
-
-
 }
 .banner-text-content ul li a{
     
@@ -140,24 +142,36 @@
     border-radius: 48px;
     border: none;
     background-color: #4EC5F7;
-    
 }
-
-
     
 .banner-image-content{
-    width: 500px;
+    width: 600px;
     border: 2px solid red;
     margin: 0 auto;
+    margin-right: 0;
 }
 .banner-image-content img{
     width: 100%;
     width: 100%;
 }
 /* banner section styles end */
+    
+
+
+    
+    
+    
+    
+
+
+    
+
+
+    
 
 /* online game section styles start */
 .online-game {
+    margin-bottom: 150px;
     
     
 }
@@ -223,6 +237,8 @@
     box-shadow: 0px 0px 30px #1c5d79;
     
     
+    
+    
      
 }
 /* .play-now:hover{
@@ -231,14 +247,41 @@
     
 } */
 
-
-
-
-
-
-
-
 /* online game section styles end */
+
+/* play game section start */
+
+.game-content{
+    width: 1240px;
+    margin: 0 auto;
+    border: 2px solid blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.game-content-img{
+    width: 50%;
+    border: 2px solid black;
+}
+.image-big{
+    width: 620px;
+    height: 580px;
+}
+.image-small{
+    width: 280px;
+    height: 320px;
+}
+.game-content-title{
+    border: 2px solid gray;
+
+}
+/* play game section end */
+
+
+
+
+
+
 
 
     
