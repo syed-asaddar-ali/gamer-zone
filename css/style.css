@@ -295,6 +295,8 @@
 .button-group1{
     margin-bottom: 50px;
     
+    
+    
 }
 .button-group2{
     margin-bottom: 100px;
@@ -328,6 +330,9 @@
 
 
 /* footer styles start */
+.footer{
+    text-align: center;
+}
 
 
 /* footer styles end */
