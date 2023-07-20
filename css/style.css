@@ -72,13 +72,6 @@
     height: 100%;
 }
 
-    
-    
-    
-    
-
-    
-    
 .banner-container{
     width: 1240px;
     height: 600px;
@@ -91,17 +84,6 @@
     top: 0px;
     right: 130px;
     
-    
-    
-}
-
-.banner-text-content {
-    /* width: 500px;
-    margin: 0 auto;
-    
-    text-align: left;
-    padding: 70px; */
-    
 }
     
 .banner-text-content h2{
@@ -111,7 +93,7 @@
     
 }
 .banner-text-content h1{
-    font-size: 90px;
+    font-size: 95px;
     font-weight: 800;
     background:  linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
@@ -124,16 +106,21 @@
 .banner-text-content ul li {
     list-style-type: none;
 }
+    
+
 .banner-text-content ul li a{
     
     margin-left: -40px;
 }
+
+    
 .banner-text-content .btn-sign{
     padding: 10px 20px;
     border-radius: 48px;
     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
     color: #fff;
     border: none;
+    margin-right: 20px;
 }
 .banner-text-content .btn-go{
     padding: 10px 20px;
@@ -155,19 +142,7 @@
 }
 /* banner section styles end */
     
-
-
     
-    
-    
-    
-
-
-    
-
-
-    
-
 /* online game section styles start */
 .online-game {
     margin-bottom: 200px;
@@ -185,8 +160,6 @@
     margin-top: 30px;
 }
     
-    
-
 .card-title h2{
     font-size: 40px;
     color: #0B0223;
@@ -232,25 +205,22 @@
 
 .card-1:hover{
     border-radius: 15px;
-    /* border: 5px solid #534C64; */
     box-shadow: 0px 0px 30px #1c5d79;
     
-    
-    
-    
-     
 }
-/* .play-now:hover{
-    border-radius: 18px;
-    box-shadow: 0px 0px 30px #534C64;
     
-} */
-
 /* online game section styles end */
-
+    
+    
+    
 /* play game section styles start */
 
-.game-content{
+
+.game-section{
+    margin-bottom: 100px;
+}
+
+.game-container{
     width: 1240px;
     height: 620px;
     margin: 0 auto;
@@ -300,6 +270,7 @@
     font-size: 40px;
     font-weight: 700;
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;;
     
@@ -314,13 +285,85 @@
 
 /* button section styles start */
 
-.
+.button-section{
+    max-width: 1400px;
+    margin: 0 auto;
+    text-align: center;
+    
+
+}
+.button-group1{
+    margin-bottom: 50px;
+    
+}
+.button-group2{
+    margin-bottom: 100px;
+}
 
 
+.button-group1, .button-group2, button{
+    /* border: 2px solid red; */
+    font-size: 20px;
+    font-weight: 600;
+    color: #0B0223;
+    border: none;
+    background: #fff;
+    margin-right: 20px;
+    
+    
+}
+.btn-arcade{ 
+    font-size: 20px;
+    font-weight: 600;
+    background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    
+}   
 
 /* button section styles end */
 
 
+
+
+/* footer styles start */
+
+
+/* footer styles end */
+    
+    
+    
+
+
+
+    
+    
+    
+
+
+    
+    
+    
+    
+
+
+    
+
+
+    
+
+
+    
+    
+    
+     
+
+
+
+
+
+
     
     
     
@@ -380,7 +423,7 @@
     
 
 
-/* banner section styles start */
+
     
     
     
