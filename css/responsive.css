@@ -3,7 +3,8 @@
    
 
   .nav-container{
-       flex-direction: column;
+       flex-direction: column-reverse;
+
       
   }
   .logo-container{
@@ -18,6 +19,13 @@
   }
   .nav-items-container a{
      margin-bottom: 30px;
+  }
+  .nav-items-container .three-items{
+    padding-left: 4rem;
+  }
+
+  .cards{
+    
   }
   
 
