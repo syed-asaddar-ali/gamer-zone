@@ -272,7 +272,7 @@
     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
     background-clip: text;
     -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;;
+    -webkit-text-fill-color: transparent;
     
 }    
 .game-content-title p{
@@ -284,9 +284,17 @@
 /* play game section styles end */
 
 /* button section styles start */
-
 .button-section{
+
+    border: 2px solid red; min-width: 50px;
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+
+
+.button-container{
     max-width: 1400px;
+    height: 350px;
     margin: 0 auto;
     text-align: center;
     
@@ -300,6 +308,7 @@
 }
 .button-group2{
     margin-bottom: 100px;
+
 }
 
 
@@ -330,12 +339,87 @@
 
 
 /* footer styles start */
-.footer{
+footer{
+    background-color: #0B0223;
+    
+}
+.footer-section {
     text-align: center;
+    padding: 100px;
+    
+}
+.footer-section h3{
+    font-size: 45px;
+    font-weight: 700;
+    color: #fff;
+    
+    
+    
+}
+.footer-section h3 span{
+    font-size: 45px;
+    font-weight: 700;
+    background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    
+}
+.footer-section, .link-1, a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+    margin-right: 40px;
+    
+}
+ a:hover{
+    text-decoration: underline;
+    color: #fff;
+    
+}
+
+.footer-section .link-2 a i {
+    font-size: 40px;
+    color: #fff;
+    margin: 30px 5px;
+}
+    
+.footer-section .link-3 a {
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    padding-top: 10px;
+}
+    
+.footer-section .link-2{
+    padding: 30px;
+
+}
+.footer-section p{
+    color: rgba(255, 255, 255, 0.60);
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 30px;
 }
 
 
 /* footer styles end */
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
     
     
     
