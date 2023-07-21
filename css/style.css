@@ -81,13 +81,13 @@
     justify-content: center;
     align-items: center;
     
-    top: 0px;
+    
     
 }
 .banner-text-content{
     width: 340px;
     height: 700px;
-    border: 2px solid ;
+    
     position: relative;
     margin-right: 300px;
     margin-bottom: 1200px;
@@ -167,7 +167,8 @@
 .banner-image-content{
     width: 600px;
     height: 600px;
-    border: 2px solid;
+   
+    
     position: relative;
     margin-bottom: 1200px;
     margin-right: 0px;
@@ -325,7 +326,7 @@
 /* button section styles start */
 .button-section{
 
-    border: 2px solid red; min-width: 50px;
+    
     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
 }
 
@@ -341,6 +342,7 @@
 }
 .button-group1{
     margin-bottom: 50px;
+    margin-top: 100px;
     
     
     
